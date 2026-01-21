@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* common class  */
+.btn{
+    background-color:#039e36;
+    border:none;
+    border-radius: 30px;
+    padding: 12px 40px 12px 16px;
+    font-size: 20px;
+    font-weight: bold;
+    color:white;
+    cursor: pointer;
+    /* margin-top: 16px; */
+}
+.btn:hover{
+    background-color: #026322;
+}
+
+nav{
+    background-color: #1A0B2E;
+    /* width:71%; */
+    /* max-width: 1140px; */
+    margin: 0 auto;
+    display: flex;
+    justify-content:space-evenly;
+    /* align-items: center; */
+    padding:16px 16px ;
+    color:white;
+    
+}
+nav .menu{
+    display:flex;
+    list-style-type: none;
+    gap:50px;
+    align-items: center;
+    
+}
+nav .menu a{
+    font-size: 20px;
+    color:white;
+    text-decoration: none;
+}
+
+/* About the Podcast  */
+.podcast{
+    background-color: #1A0B2E;
+    padding: 50px;
+    padding: 120px;
+}
+.text-part{
+    color:#ffffff;
+    text-align: center;
+    margin: 50px 200px 80px 200px;
+}
+.text-part h1{
+    text-transform: capitalize;
+    font-size: 48px;
+    font-weight: bold;
+}
+.text-part p{
+    margin-top: 16px;
+    /* letter-spacing: 1px */
+    line-height: 1.5;
+     word-spacing: 1px;
+    
+}
+.number-card{
+    color:#039e36;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 80px 200px 120px 200px;
+}
+.number-card p{
+    color:#ffffff;
+    margin-top: 16px;
+    text-transform: uppercase;
+}
+.number-card h1{
+    font-size: 48px;
+    margin-left: 20px;
+}
+
+/* footer part  */
+footer{
+    background-image: url("images/footer-bg.png");
+    /* background-size: cover; */
+    padding: 120px;
+}
+
+.footer-section p{
+    /* padding: 120px; */
+    color:#ffffff;
+    text-align: center;
+    margin-top: 32px;
+}
+footer h1{
+    color:white;
+    text-align: center;
+    margin: 0 67px 32px 67px;
+}
+.footer-icon{
+    display: flex;
+    
+    /* color: #ffffff; */
+    /* text-decoration: none; */
+    justify-content: center;
+    gap:80px;
+    margin-top: 32px;
+}
+.footer-icon li {
+    color:white;
+    text-decoration: none;
+    list-style-type: none;
+    /* top:-50px; */
+}
+.footer-icon p{
+    text-align: center;
+    color: #ffffff;
+}
+
+/* ================kumar Alex =====================  */
+.kumar{
+    display: flex;
+    /* background-color: #1A0B2E; */
+    background-color: #351165;
+}
+.kumar img{
+    margin: 40px 24px 40px 40px;
+    /* outline: beige; */
+    /* border:1px solid white; */
+    /* border-radius: 100%; */
+    /* font-size: 48px; */
+    background-color: #533C72;;
+}
+.text-kumar{
+    margin: 40px;
+    color: white;
+}
+.text-kumar p{
+    margin-top: 16px;
+}
+.alex-icon{
+    margin-top: 16px;
+    align-items: flex-start;
+}
